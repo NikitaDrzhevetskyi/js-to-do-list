@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+    <title>To-Do-List JS</title>
+    <script
+      src="./script.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div class="to-do-list">
+      <div class="to-do-list__container">
+        <div class="add-task">
+          <h1>New Task</h1>
+          <form
+            action=""
+            class="add-task__form"
+          >
+            <div class="add-task__input">
+              <input
+                type="text"
+                name=""
+                class="task-input"
+              />
+            </div>
+            <button
+              class="add-task__btn"
+              type="submit"
+            >
+              Add task
+            </button>
+          </form>
+        </div>
+
+        <div class="task-list">
+          <h1>Task list</h1>
+          <input
+            type="text"
+            class="task-list__search"
+          />
+          <ul class="task-list__collection"></ul>
+          <button class="delete-tasks">Delete All Tasks</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
